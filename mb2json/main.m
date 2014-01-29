@@ -61,7 +61,7 @@ int main(int argc, const char * argv[])
                     
                     NSDictionary *dict = [NSDictionary jmo_dictionaryWithMobileProvisioningString:result];
                     JMOMobileProvisionning *provisionningObj = [[JMOMobileProvisionning alloc] initWithDictionary:dict];
-                    NSLog(@"%@",[provisionningObj jsonStringWithPrettyPrint:YES]);
+                    printf("\n%s",[[provisionningObj jsonStringWithPrettyPrint:YES] UTF8String]);
                 }
             }
         }
