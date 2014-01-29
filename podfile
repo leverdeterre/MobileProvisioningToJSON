@@ -1,3 +1,0 @@
-platform :osx
-
-pod 'iAppInfos', :git => 'https://github.com/leverdeterre/iAppInfos.git'
